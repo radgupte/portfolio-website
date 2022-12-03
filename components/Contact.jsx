@@ -27,10 +27,10 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Clint Briley</h2>
-                <p>Front-End Developer</p>
+                <h2 className='py-2'>Radhika Gupte</h2>
+                <p>Back-End Developer</p>
                 <p className='py-4'>
-                  I am available for freelance or full-time positions. Contact
+                  I am available for full-time & internship positions. Contact
                   me and let&apos;s talk.
                 </p>
               </div>
@@ -38,7 +38,7 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/radhika-gupte/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -47,7 +47,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/radgupte'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -56,16 +56,15 @@ const Contact = () => {
                     </div>
                   </a>
 
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
-                  <Link href='/resume'>
-                    <a>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
-                  </Link>
+                  <a
+                    href='https://drive.google.com/file/d/1HKg5bF34PWNO2R740eBCeS_qzcKf6pne/view?usp=share_link'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -75,7 +74,7 @@ const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action='https://getform.io/f/445a1e34-ee7a-4b48-a32f-fcf6d6a39330'
                 method='POST'
                 encType='multipart/form-data'
               >

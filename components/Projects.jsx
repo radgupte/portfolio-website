@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import shoppingImg from '../public/assets/projects/shopping.jpg';
 import propertyImg from '../public/assets/projects/property.jpg';
 import cryptoImg from '../public/assets/projects/crypto.jpg'
 import netflixImg from '../public/assets/projects/netflix.jpg'
@@ -17,32 +18,32 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
+            title='RGZone'
+            backgroundImg={shoppingImg}
             projectUrl='/property'
-            tech='React JS'
+            tech='Angular 8'
           />
-          <ProjectItem
+          {/* <ProjectItem
             title='Crypto App'
             backgroundImg={cryptoImg}
             projectUrl='/crypto'
             tech='React JS'
 
-          />
-          <ProjectItem
+          /> */}
+          {/* <ProjectItem
             title='Netflix App'
             backgroundImg={netflixImg}
             projectUrl='/netflix'
             tech='React JS'
 
-          />
-          <ProjectItem
+          /> */}
+          {/* <ProjectItem
             title='Twitch UI'
             backgroundImg={twitchImg}
             projectUrl='/twitch'
             tech='Next JS'
 
-          />
+          /> */}
         </div>
       </div>
     </div>
