@@ -9,17 +9,19 @@ const About = () => {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
-            About
+            About Me
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600 text-2xl">
-            I specialize in building full stack applications with a passion for
-            backend development. I enjoy the process of learning new
-            technologies and understand there is more than one way to accomplish
-            a task and exploring the many possibilities is part of the process.
-            Though I am most proficient in building applications using Java,
-            Python, JavaScript and TypeScript, I am a fast learner and can pick
-            up on new tech stacks as needed.
+            I am passionate about developing software and learning new
+            technologies, and I am looking forward to building solutions that
+            have a positive impact on the lives of people. I offer strong
+            programming skills in Java, Python, Kotlin, and JavaScript, and I am
+            well-versed in various front-end and back-end frameworks such as
+            React, Angular, Next.js, and Node.js. I have gained practical
+            experience working on software development projects, building web
+            and mobile applications, microservices, and providing automation
+            solutions.
           </p>
           {/* <p className='py-2 text-gray-600'>
             I started web developement in 2013 managing multiple e-commerce
