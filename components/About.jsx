@@ -24,7 +24,8 @@ const About = () => {
             React, Angular, Next.js, and Node.js. I have gained practical
             experience working on software development projects, building web
             and mobile applications, microservices, and providing automation
-            solutions.
+            solutions. When I am not building projects, I enjoy playing songs on
+            my keyboard (synthesizer) and reading books.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
