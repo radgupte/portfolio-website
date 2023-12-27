@@ -5,14 +5,17 @@ import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div
+      id="about"
+      className="w-full md:h-screen mx-auto p-2 flex items-center py-20"
+    >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About Me
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600 text-2xl">
+          <p className="py-2 text-gray-600 text-xl">
             I am passionate about developing software and learning new
             technologies, and I am looking forward to building solutions that
             have a positive impact on the lives of people. I offer strong
@@ -23,14 +26,6 @@ const About = () => {
             and mobile applications, microservices, and providing automation
             solutions.
           </p>
-          {/* <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
-          </p> */}
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my latest projects.
