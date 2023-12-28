@@ -41,7 +41,7 @@ const property = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Project Repository</button>
+            <button className="px-8 py-2 mt-4">Project Repository</button>
           </a>
           {/* <a
             href='https://property-finder-development.web.app/'
