@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Radhika Gupte | Fullstack Developer</title>
+        <title>Radhika Gupte | Software Engineer</title>
         <meta
           name="description"
-          content="I’m a fullstack developer specializing in building (and occasionally designing) amazing software applications."
+          content="I’m a software engineer specializing in building (and occasionally designing) amazing software applications."
         />
         <link rel="icon" href="/fav.png" />
       </Head>

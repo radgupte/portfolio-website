@@ -28,10 +28,10 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Radhika Gupte</h2>
-                <p>Fullstack Developer</p>
+                <p>Software Engineer</p>
                 <p className="py-4">
-                  I am available for full-time & internship positions. Contact
-                  me and let&apos;s talk.
+                  I am available for full-time positions. Contact me and
+                  let&apos;s talk.
                 </p>
               </div>
               <div>
@@ -57,7 +57,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="https://drive.google.com/file/d/1ZGvLH_TluLiLsSu6EjYsowDcAaUfZYUY/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1d19lPG92gMFweHSdVZbs7jqeJSuObxdV/view"
                     target="_blank"
                     rel="noreferrer"
                   >
