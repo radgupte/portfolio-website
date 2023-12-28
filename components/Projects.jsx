@@ -2,34 +2,37 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import shoppingImg from '../public/assets/projects/shopping.jpg';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import netReconImg from '../public/assets/projects/netrecon.jpg';
+import publicImg from '../public/assets/projects/publichelp.jpg';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
-      <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+    <div id="projects" className="w-full">
+      <div className="max-w-[1240px] mx-auto px-2 py-20">
+        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
-        <h2 className='py-4'>What I&apos;ve Built</h2>
-        <div className='grid md:grid-cols-2 gap-8'>
+        <h2 className="py-4">What I&apos;ve Built</h2>
+        <div className="grid md:grid-cols-3 gap-8">
           <ProjectItem
-            title='RGZone'
-            backgroundImg={shoppingImg}
-            projectUrl='/property'
-            tech='Angular 8'
+            title="NetReconner"
+            backgroundImg={netReconImg}
+            projectUrl="/netrecon"
+            tech="Python, Shell"
           />
-          {/* <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
-          /> */}
+          <ProjectItem
+            title="Public Help Service"
+            backgroundImg={publicImg}
+            projectUrl="/publichelp"
+            tech="Figma"
+          />
+          <ProjectItem
+            title="Store Front"
+            backgroundImg={shoppingImg}
+            projectUrl="/shopping"
+            tech="Angular 8"
+          />
           {/* <ProjectItem
             title='Netflix App'
             backgroundImg={netflixImg}
