@@ -4,6 +4,7 @@ import React from 'react';
 import shoppingImg from '../public/assets/projects/shopping.jpg';
 import netReconImg from '../public/assets/projects/netrecon.jpg';
 import publicImg from '../public/assets/projects/publichelp.jpg';
+import netflixImg from '../public/assets/projects/netflix.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -17,7 +18,7 @@ const Projects = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <ProjectItem
             title="Netflix-Clone"
-            backgroundImg={shoppingImg}
+            backgroundImg={netflixImg}
             projectUrl="/netflix"
             tech="React, MongoDB"
           />
